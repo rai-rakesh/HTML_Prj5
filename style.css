@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+body,
+html {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.grow-list .list {
+    width: 600px;
+    position: relative;
+    right: 50px;
+}
+
+.grow-list .list .list-item {
+    display: inline-block;
+    padding: 0 3%;
+    font-size: small;
+    cursor: pointer;
+}
+
+.grow-list .list .list-app {
+    padding: 0 1%;
+}
+
+.logo-div {
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+.logo-div img {
+    height: 25px;
+}
+
+.line {
+    border-left: 2px solid #fff;
+    height: 30px;
+}
+
+.arrow-down {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+}
+
+.hero {
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 82px;
+}
+
+.hero-heading {
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    font-size: 3rem;
+}
+
+.hero-description {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color: #BA0CC5;
+    cursor: pointer;
+}
+
+.button-large {
+    margin-top: 5%;
+    margin-left: 44%;
+    margin-bottom: 10%;
+    padding: 1% 1%;
+    font-weight: bolder;
+}
+
+.button-small {
+    padding: 2% 2%;
+    width: 100px;
+}
